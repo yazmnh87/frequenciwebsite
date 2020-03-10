@@ -7,7 +7,7 @@ import Nate from "../public/nate_gardner_headshot_img.jpeg";
 import Bill from "../public/william_violette_img.jpg";
 const Container = styled.div`
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: repeat(1fr);
   height: 100vh;
   width: 100%;
   /* border: 1px solid red; */
@@ -53,7 +53,7 @@ const Content = styled.div`
   align-items: center;
   grid-template-columns: 200px 400px;
   grid-gap: 0px;
-  /* border:1px solid purple; */
+  border:1px solid purple;
 
   .imgContainer {
     display: flex;
@@ -67,7 +67,8 @@ const Content = styled.div`
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    /* border:1px solid blue; */
+    width: 100%;
+    border:1px solid blue;
   }
 
   .name {
@@ -86,6 +87,7 @@ const Content = styled.div`
     font-family: ${props => props.theme.fonts.secondary};
     font-weight: 700;
     font-size: 15px;
+    /* border:1px solid blue; */
   }
 
   @media only screen and (max-width: ${BreakpointMobile + "px"}) {
@@ -94,22 +96,22 @@ const Content = styled.div`
     /* border: 1px solid red; */
     grid-gap: 0px;
 
-    .imgContainer {        
+    .imgContainer {
       /* border: 1px solid purple; */
     }
 
     .contentConatiner {
-        display: flex;
-        align-items: center;
-        text-align: center;
-        max-width: 85%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      max-width: 85%;
       /* border: 1px solid blue; */
     }
-    .name{
-        padding: 10px 0 0 0;
+    .name {
+      padding: 10px 0 0 0;
     }
-    .title{
-        padding: 7px 0 0 0;
+    .title {
+      padding: 7px 0 0 0;
     }
   }
 `;
@@ -131,10 +133,12 @@ const Team = props => {
               <span className="name">Tamara Hall</span>
               <span className="title">Founder & CEO</span>
               <p className="description">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Ducimus aliquid sapiente earum delectus cumque dolore inventore
-                alias tempora laudantium obcaecati eos tenetur labore,
-                dignissimos culpa corrupti provident voluptates consequatur quo.
+                Tamara Hall,BSN, MBA, retired healthcare executive is now
+                focused on giving back and bringing health and wellness tools to
+                market. Outside of pursuing business investments and
+                philanthropic endeavors, Tamara likes spending time with her
+                grandchildren, gardening, outdoors and working with new
+                start-ups.
               </p>
             </div>
           </Content>
@@ -165,10 +169,15 @@ const Team = props => {
               <span className="name">Bill Violette</span>
               <span className="title">Developer</span>
               <p className="description">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Ducimus aliquid sapiente earum delectus cumque dolore inventore
-                alias tempora laudantium obcaecati eos tenetur labore,
-                dignissimos culpa corrupti provident voluptates consequatur quo.
+                Bill Violette is from South Jordan, UT where he works as a full
+                time freelance software developer. Working as a developer for
+                over the past year Bill has brought his clients vision to market
+                on both mobile and web platforms. Bill provides his clients an
+                exceptional customer experience offering prompt and effective
+                communication ensuring their projects success. Outside of
+                pursuing greatness within his career as a developer Bill spends
+                his time working as a hobbyist mechanic rebuilding cars, playing
+                golf and enjoying the mountains of utah.
               </p>
             </div>
           </Content>
