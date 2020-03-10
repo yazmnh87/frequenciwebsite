@@ -53,7 +53,7 @@ const Content = styled.div`
   align-items: center;
   grid-template-columns: 200px 400px;
   grid-gap: 0px;
-  border:1px solid purple;
+  border: 1px solid purple;
 
   .imgContainer {
     display: flex;
@@ -68,7 +68,7 @@ const Content = styled.div`
     justify-content: center;
     height: 100%;
     width: 100%;
-    border:1px solid blue;
+    border: 1px solid blue;
   }
 
   .name {
@@ -152,10 +152,11 @@ const Team = props => {
               <span className="name">Nate Gardner</span>
               <span className="title">Project Manager</span>
               <p className="description">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Ducimus aliquid sapiente earum delectus cumque dolore inventore
-                alias tempora laudantium obcaecati eos tenetur labore,
-                dignissimos culpa corrupti provident voluptates consequatur quo.
+                Nate is a native of Salt Lake City, Utah, where he graduated
+                from Westminster College in 2018. He is a sports fanatic,
+                especially baseball, and has a goal to visit every MLB stadium
+                (13/30 so far). Nate is passionate about mind health and hopes
+                to help others maximize their personal wellness.
               </p>
             </div>
           </Content>
@@ -170,11 +171,7 @@ const Team = props => {
               <span className="title">Developer</span>
               <p className="description">
                 Bill Violette is from South Jordan, UT where he works as a full
-                time freelance software developer. Working as a developer for
-                over the past year Bill has brought his clients vision to market
-                on both mobile and web platforms. Bill provides his clients an
-                exceptional customer experience offering prompt and effective
-                communication ensuring their projects success. Outside of
+                time freelance software developer. Outside of
                 pursuing greatness within his career as a developer Bill spends
                 his time working as a hobbyist mechanic rebuilding cars, playing
                 golf and enjoying the mountains of utah.
