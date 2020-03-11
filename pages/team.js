@@ -53,7 +53,7 @@ const Content = styled.div`
   align-items: center;
   grid-template-columns: 200px 400px;
   grid-gap: 0px;
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
 
   .imgContainer {
     display: flex;
@@ -68,7 +68,7 @@ const Content = styled.div`
     justify-content: center;
     height: 100%;
     width: 100%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
   }
 
   .name {

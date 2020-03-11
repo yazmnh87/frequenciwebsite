@@ -3,7 +3,7 @@ import Team from './team'
 import About from './about'
 
 const Index = () => (
-  <About />
+  <Home />
 )
 
 export default Index
